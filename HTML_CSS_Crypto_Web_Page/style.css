@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #251C2F;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #251C2F;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-right: 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 80px;
+    margin-top: -20px;
+}
+
+.active {
+    color: #19dafa !important;
+}
+
+.sign-up-btn {
+    top: 25px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.sign-up-btn span {
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner {
+    width: 80%;
+    height: 20%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text {
+    width: 50%;
+    float: left;
+}
+
+.app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text p {
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+
+.app-picture {
+    width: 30%;
+    float: right;
+    margin: 30px 120px 0 0;
+
+}
+
+.app-picture img {
+    width: 100%;
+}
+
+.play-btn {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.play-btn-inner {
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.play-btn-inner .fa {
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+small {
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #19dafa;
+    letter-spacing: 3px;
+}
+
+.quick-links {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #251C2F;
+}
+
+.quick-links ul {
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.quick-links ul li {
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.quick-links ul li p {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.quick-links ul li .fa {
+    font-size: 25px;
+    color: #fff;
+}
+
+.social-icons {
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
+
+.social-icons ul li {
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons ul li a {
+    color: #999;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+}
